@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:p="urn:x-personium:xmlns">
+    <edmx:DataServices m:DataServiceVersion="1.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2006/04/edm" Namespace="UserData">
+            <EntityType Name="provide_information" OpenType="true">
+                <Key>
+                    <PropertyRef Name="__id"></PropertyRef>
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" DefaultValue="UUID()" p:Format="regEx('^.{1,400}$')"></Property>
+                <Property Name="__published" Type="Edm.DateTime" Nullable="false" DefaultValue="SYSUTCDATETIME()" Precision="3"></Property>
+                <Property Name="__updated" Type="Edm.DateTime" Nullable="false" DefaultValue="SYSUTCDATETIME()" Precision="3"></Property>
+                <Property Name="type" Type="Edm.Int32" Nullable="true"></Property>
+                <Property Name="title" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="detail" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="venue" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="url" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="start_date" Type="Edm.DateTime" Nullable="true"></Property>
+                <Property Name="end_date" Type="Edm.DateTime" Nullable="true"></Property>
+                <Property Name="post_place" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="target_age" Type="Edm.Int32" Nullable="true"></Property>
+                <Property Name="target_sex" Type="Edm.Int32" Nullable="true"></Property>
+            </EntityType>
+            <EntityContainer Name="UserData" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="provide_information" EntityType="UserData.provide_information"></EntitySet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

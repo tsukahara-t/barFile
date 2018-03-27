@@ -1,0 +1,10 @@
+{
+  "Roles": [
+    {
+      "Name": "organization"
+    },
+    {
+      "Name": "supporter"
+    }
+  ]
+}
