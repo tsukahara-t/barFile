@@ -23,6 +23,18 @@
         </propstat>
     </response>
     <response>
+        <href>dcbox:/action</href>
+        <propstat>
+            <prop>
+                <resourcetype>
+                    <collection/>
+                    <p:odata
+                        xmlns:p="urn:x-personium:xmlns"/>
+                </resourcetype>
+            </prop>
+        </propstat>
+    </response>
+    <response>
         <href>dcbox:/reply</href>
         <propstat>
             <prop>
