@@ -19,6 +19,22 @@
                     <p:odata
                         xmlns:p="urn:x-personium:xmlns"/>
                 </resourcetype>
+                <acl xml:base="https://demo.personium.io/app-life-enrichers-community/__role/__/"
+                    xmlns:p="urn:x-personium:xmlns">
+                    <ace>
+                        <principal>
+                            <href>supporter</href>
+                        </principal>
+                        <grant>
+                            <privilege>
+                                <read/>
+                            </privilege>
+                            <privilege>
+                                <write/>
+                            </privilege>
+                        </grant>
+                    </ace>
+                </acl>
             </prop>
         </propstat>
     </response>
@@ -31,6 +47,22 @@
                     <p:odata
                         xmlns:p="urn:x-personium:xmlns"/>
                 </resourcetype>
+                <acl xml:base="https://demo.personium.io/app-life-enrichers-community/__role/__/"
+                    xmlns:p="urn:x-personium:xmlns">
+                    <ace>
+                        <principal>
+                            <href>supporter</href>
+                        </principal>
+                        <grant>
+                            <privilege>
+                                <read/>
+                            </privilege>
+                            <privilege>
+                                <write/>
+                            </privilege>
+                        </grant>
+                    </ace>
+                </acl>
             </prop>
         </propstat>
     </response>
