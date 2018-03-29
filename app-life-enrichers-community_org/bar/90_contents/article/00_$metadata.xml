@@ -19,8 +19,8 @@
                 <Property Name="detail" Type="Edm.String" Nullable="true"></Property>
                 <Property Name="venue" Type="Edm.String" Nullable="true"></Property>
                 <Property Name="url" Type="Edm.String" Nullable="true"></Property>
-                <Property Name="start_date" Type="Edm.DateTime" Nullable="true"></Property>
-                <Property Name="end_date" Type="Edm.DateTime" Nullable="true"></Property>
+                <Property Name="start_date" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="end_date" Type="Edm.String" Nullable="true"></Property>
                 <Property Name="post_place" Type="Edm.String" Nullable="true"></Property>
                 <Property Name="target_age" Type="Edm.Int32" Nullable="true"></Property>
                 <Property Name="target_sex" Type="Edm.Int32" Nullable="true"></Property>
