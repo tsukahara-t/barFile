@@ -34,19 +34,6 @@
                     </ace>
                     <ace>
                         <principal>
-                            <href>Supporter</href>
-                        </principal>
-                        <grant>
-                            <privilege>
-                                <read/>
-                            </privilege>
-                            <privilege>
-                                <write/>
-                            </privilege>
-                        </grant>
-                    </ace>
-                    <ace>
-                        <principal>
                             <href>User</href>
                         </principal>
                         <grant>
@@ -72,19 +59,6 @@
                     <ace>
                         <principal>
                             <href>Organization</href>
-                        </principal>
-                        <grant>
-                            <privilege>
-                                <read/>
-                            </privilege>
-                            <privilege>
-                                <write/>
-                            </privilege>
-                        </grant>
-                    </ace>
-                    <ace>
-                        <principal>
-                            <href>Supporter</href>
                         </principal>
                         <grant>
                             <privilege>
@@ -125,19 +99,6 @@
                     <ace>
                         <principal>
                             <href>Organization</href>
-                        </principal>
-                        <grant>
-                            <privilege>
-                                <read/>
-                            </privilege>
-                            <privilege>
-                                <write/>
-                            </privilege>
-                        </grant>
-                    </ace>
-                    <ace>
-                        <principal>
-                            <href>Supporter</href>
                         </principal>
                         <grant>
                             <privilege>
