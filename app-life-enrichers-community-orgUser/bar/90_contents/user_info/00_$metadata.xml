@@ -31,6 +31,20 @@
                 <Property Name="room_type" Type="Edm.String" Nullable="true"></Property>
                 <Property Name="sex" Type="Edm.String" Nullable="true"></Property>
             </EntityType>
+            <EntityType Name="user_evacuation" OpenType="true">
+                <Key>
+                    <PropertyRef Name="__id"></PropertyRef>
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" DefaultValue="UUID()" p:Format="regEx('^.{1,400}$')"></Property>
+                <Property Name="__published" Type="Edm.DateTime" Nullable="false" DefaultValue="SYSUTCDATETIME()" Precision="3"></Property>
+                <Property Name="__updated" Type="Edm.DateTime" Nullable="false" DefaultValue="SYSUTCDATETIME()" Precision="3"></Property>
+                <Property Name="classification" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="destination_reason" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="finish_date" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="not_at_home" Type="Edm.Boolean" Nullable="true"></Property>
+                <Property Name="notices" Type="Edm.String" Nullable="true"></Property>
+                <Property Name="start_date" Type="Edm.String" Nullable="true"></Property>
+            </EntityType>
             <EntityType Name="user_health_information" OpenType="true">
                 <Key>
                     <PropertyRef Name="__id"></PropertyRef>
@@ -85,6 +99,7 @@
                 <EntitySet Name="user_vital" EntityType="UserData.user_vital"></EntitySet>
                 <EntitySet Name="user_basic_information" EntityType="UserData.user_basic_information"></EntitySet>
                 <EntitySet Name="user_household" EntityType="UserData.user_household"></EntitySet>
+                <EntitySet Name="user_evacuation" EntityType="UserData.user_evacuation"></EntitySet>
             </EntityContainer>
         </Schema>
     </edmx:DataServices>
