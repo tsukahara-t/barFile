@@ -17,7 +17,7 @@
                 <resourcetype>
                     <collection/>
                 </resourcetype>
-                <acl xml:base="https://demo.personium.io/fst-community-organization/__role/__/"
+                <acl xml:base="https://demo.personium.io/app-life-enrichers-community/__role/__/"
                     xmlns:p="urn:x-personium:xmlns">
                     <ace>
                         <principal>
@@ -54,7 +54,7 @@
                     <collection/>
                     <p:odata xmlns:p="urn:x-personium:xmlns"/>
                 </resourcetype>
-                <acl xml:base="https://demo.personium.io/fst-community-organization/__role/__/"
+                <acl xml:base="https://demo.personium.io/app-life-enrichers-community/__role/__/"
                     xmlns:p="urn:x-personium:xmlns">
                     <ace>
                         <principal>
